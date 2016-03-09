@@ -1,5 +1,9 @@
-package bsp01;
-
+/*
+ * AADS - bsp01
+ * @author Wolfgang Kremser
+ * @author Gregor Bankhamer
+ * @author Kevin Kain
+ */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
@@ -29,8 +33,6 @@ public class MergeLists {
 		scan.close();
 		in.close();
 		
-		System.out.println(l1);
-		System.out.println(l2);
 		System.out.println(l1.mergeWith(l2));
 	}	
 }

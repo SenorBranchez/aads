@@ -1,5 +1,9 @@
-package bsp01;
-
+/*
+ * AADS - bsp01
+ * @author Wolfgang Kremser
+ * @author Gregor Bankhamer
+ * @author Kevin Kain
+ */
 public class LinkedList {
 	
 	protected class Node implements Comparable<Node> {
